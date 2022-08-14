@@ -28,6 +28,16 @@ class HomeView extends GetView<HomeController> {
                 child: Text('mrx-charts'),
               ),
             ),
+            ElevatedButton(
+              onPressed: () => Get.toNamed('pie-charts'),
+              style: ElevatedButton.styleFrom(
+                primary: const Color(0xFF1B0E41),
+              ),
+              child: const Padding(
+                padding: EdgeInsets.all(12.0),
+                child: Text('pie-charts'),
+              ),
+            ),
           ],
         ),
       ),

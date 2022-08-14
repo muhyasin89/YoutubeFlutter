@@ -9,6 +9,7 @@ abstract class Routes {
   static const ECHARTS = _Paths.ECHARTS;
   static const STACKBARCHART = _Paths.STACKBARCHART;
   static const MRX_CHARTS = _Paths.MRX_CHARTS;
+  static const PIE_CHARTS = _Paths.PIE_CHARTS;
 }
 
 abstract class _Paths {
@@ -17,4 +18,5 @@ abstract class _Paths {
   static const ECHARTS = '/echarts';
   static const STACKBARCHART = '/stackbarchart';
   static const MRX_CHARTS = '/mrx-charts';
+  static const PIE_CHARTS = '/pie-charts';
 }

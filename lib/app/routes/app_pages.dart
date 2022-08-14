@@ -8,6 +8,8 @@ import 'package:youtube_flutter/app/modules/map_chart/bindings/map_chart_binding
 import 'package:youtube_flutter/app/modules/map_chart/views/map_chart_view.dart';
 import 'package:youtube_flutter/app/modules/mrx_charts/bindings/mrx_charts_binding.dart';
 import 'package:youtube_flutter/app/modules/mrx_charts/views/mrx_charts_view.dart';
+import 'package:youtube_flutter/app/modules/pie_charts/bindings/pie_charts_binding.dart';
+import 'package:youtube_flutter/app/modules/pie_charts/views/pie_charts_view.dart';
 import 'package:youtube_flutter/app/modules/stackbarchart/bindings/stackbarchart_binding.dart';
 import 'package:youtube_flutter/app/modules/stackbarchart/views/stackbarchart_view.dart';
 
@@ -43,6 +45,11 @@ class AppPages {
       name: _Paths.MRX_CHARTS,
       page: () => MrxChartsView(),
       binding: MrxChartsBinding(),
+    ),
+    GetPage(
+      name: _Paths.PIE_CHARTS,
+      page: () => PieChartsView(),
+      binding: PieChartsBinding(),
     ),
   ];
 }

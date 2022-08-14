@@ -16,7 +16,7 @@ class PieView extends GetView {
               right: 20.0,
             ),
             child: GestureDetector(
-              onTap: () => setState(() {}),
+              onTap: () => {},
               child: const Icon(
                 Icons.refresh,
                 size: 26.0,

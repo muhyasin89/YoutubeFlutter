@@ -37,7 +37,7 @@ class MrxChartsView extends GetView<MrxChartsController> {
               height: 6.0,
             ),
             ElevatedButton(
-              onPressed: () => Get.to(GroupBarView())
+              onPressed: () => Get.to(GroupBarView()),
               style: ElevatedButton.styleFrom(
                 primary: const Color(0xFF1B0E41),
               ),
