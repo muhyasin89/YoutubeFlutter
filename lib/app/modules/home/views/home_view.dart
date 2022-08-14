@@ -12,10 +12,23 @@ class HomeView extends GetView<HomeController> {
         title: Text('HomeView'),
         centerTitle: true,
       ),
-      body: Center(
-        child: Text(
-          'HomeView is working',
-          style: TextStyle(fontSize: 20),
+      body: Padding(
+        padding: const EdgeInsets.all(24.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () => Get.toNamed('mrx-charts'),
+              style: ElevatedButton.styleFrom(
+                primary: const Color(0xFF1B0E41),
+              ),
+              child: const Padding(
+                padding: EdgeInsets.all(12.0),
+                child: Text('mrx-charts'),
+              ),
+            ),
+          ],
         ),
       ),
     );
